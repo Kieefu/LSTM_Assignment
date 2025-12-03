@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model checkpoints and outputs
+checkpoints/
+results/
+*.pth
+*.pkl
+*.npz
+
+# Data files (if large - uncomment if needed)
+# *.csv
+# *.h5
+# *.hdf5
+
+# Logs
+*.log
+logs/
+
+# Output files
+forecast_output.csv
+forecast_plot.png
